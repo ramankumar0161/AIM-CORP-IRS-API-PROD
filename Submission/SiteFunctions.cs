@@ -53,6 +53,7 @@ namespace IrsSubmission.Submission
                     var b = new BinaryAttachment("manifest.pdf", pdfbyte);
                     //attachments.Add(b);
                     // Let's invoke the Create Submission Archive methods using "SubmissionID", "manifest", "XML", and path: where you want to store the Archive generated from this.
+
                     // Replace the path "D:\Aim Corporation\Desktop Application\SubmissionArchive" with path where you want to store the Archives
                     var arch = builder.CreateIRSSubmissionArchive(SubmissionID, manifest, xml, attachments);
                     // Create Postmarked Submission using Archive just created and DateTime Stamp
