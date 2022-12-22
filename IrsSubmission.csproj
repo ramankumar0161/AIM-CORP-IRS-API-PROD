@@ -46,13 +46,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+    <Reference Include="ICSharpCode.SharpZipLib, Version=1.2.0.246, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Version Toolkit\MeF_Client_SDK\dotNET\dist\mef_client_sdk\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>..\..\IRS API Version\Version_13.1\MeF_Client_SDK\dotNET\dist\mef_client_sdk\mef_client_sdk\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="MeFWCFClient, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Version_12.1\MeF_Client_SDK\dotNET\dist\mef_client_sdk\mef_client_sdk\MeFWCFClient.dll</HintPath>
+      <HintPath>..\..\IRS API Version\Version_13.1\MeF_Client_SDK\dotNET\dist\mef_client_sdk\mef_client_sdk\MeFWCFClient.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
