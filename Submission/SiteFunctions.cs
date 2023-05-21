@@ -84,7 +84,7 @@ namespace IrsSubmission.Submission
             {
                 oResonse.MessageID = "";
                 oResonse.Relatesto = "";
-                oResonse.Statustxt = ex.Message;
+                oResonse.Statustxt = ex.InnerException.Message.ToString();
                 return oResonse;
             }
         }
@@ -137,7 +137,7 @@ namespace IrsSubmission.Submission
             {
                 oResonse.MessageID = "";
                 oResonse.Relatesto = msg;
-                oResonse.Statustxt = ex.ToString();
+                oResonse.Statustxt = ex.InnerException.Message.ToString();
                 return oResonse;
             }
         }
