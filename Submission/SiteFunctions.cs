@@ -109,8 +109,7 @@ namespace IrsSubmission.Submission
                     msg = "login start";
                     LoginResult Loginresult = client.Invoke(context);
                     msg = "login success";
-                    // Create object of SubmissionBuilder over here
-                    // GetAckClient ackClient = new GetAckClient(@"D:\Aim Corporation\Desktop Application\Acknowledgement");
+                  
                     GetAckClient ackClient = new GetAckClient();
                     msg = "ack client start";
                     GetAckResult result = ackClient.Invoke(context, Ack.submissionId);
